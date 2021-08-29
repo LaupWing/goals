@@ -1,6 +1,8 @@
 <template>
-   <main-nav/>
-   <router-view />
+   <div class="flex flex-col w-screen h-screen">
+      <main-nav/>
+      <router-view />
+   </div>
 </template>
 
 <script>
